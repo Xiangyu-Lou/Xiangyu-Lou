@@ -41,16 +41,16 @@
       "major": "电子信息科学与技术 本科"
     }
   ],
-  // "awardList": [
-  //   {
-  //     "award_time": "2019",
-  //     "award_info": "校长奖学金"
-  //   },
-  //   {
-  //     "award_time": "2022",
-  //     "award_info": "托福 106"
-  //   }
-  // ],
+  "awardList": [
+    {
+      "award_time": "2019",
+      "award_info": "校长奖学金"
+    },
+    {
+      "award_time": "2022",
+      "award_info": "托福 106"
+    }
+  ],
   "workExpList": [
     {
       "work_time": [
