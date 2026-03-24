@@ -1,91 +1,55 @@
-
 {
     "avatar": {
-        "hidden": false
+        "hidden": false,
+        "src": "https://github.com/Xiangyu-Lou/Resume/blob/main/self-photo.jpg?raw=true"
     },
     "profile": {
-        "name": "姓名",
-        "email": "736****86@qq.com",
-        "mobile": "156********",
-        "github": "https://github.com/visiky",
-        "zhihu": "https://zhihu.com/people/visiky",
+        "name": "娄祥宇",
+        "email": "alex.xiangyu.lou@gmail.com",
+        "mobile": "13102006750",
+        "github": "https://github.com/Xiangyu-Lou",
+        "zhihu": "",
         "workExpYear": "",
-        "workPlace": "浙江杭州",
-        "positionTitle": "前端工程师"
+        "workPlace": "",
+        "positionTitle": ""
     },
     "educationList": [
         {
             "edu_time": [
-                "2014.09.01",
-                "2018.06.30"
+                "2023.08",
+                "2025.05"
             ],
-            "school": "华南理工大学",
-            "major": "网络工程",
-            "academic_degree": "本科"
+            "school": "圣路易斯华盛顿大学",
+            "major": "计算机工程 硕士",
+            "dataIndex": 0
+        },
+        {
+            "edu_time": [
+                "2018.08",
+                "2022.06"
+            ],
+            "school": "天津工业大学",
+            "major": "电子信息科学与技术 本科"
         }
     ],
     "awardList": [
         {
-            "award_info": "英语 CET6",
-            "award_time": "2015"
-        },
-        {
-            "award_info": "蚂蚁近卫军 卓越个人奖",
-            "award_time": "2018.09"
-        },
-        {
-            "award_info": "前端练习生 可视化讲师",
-            "award_time": "2020.10"
-        },
-        {
-            "award_info": "前端早早聊 分享 “如何构思和开发开箱即用的可视化图表库 G2Plot”",
-            "award_time": "2021.07"
+            "award_time": "2019",
+            "award_info": "校长奖学金"
         }
     ],
     "workExpList": [
         {
-            "company_name": "蚂蚁集团",
-            "department_name": "体验技术部",
             "work_time": [
-                "2018.06",
-                "2018.07"
+                "2022.12",
+                "2023.05"
             ],
-            "work_desc": "1. 担任蚂蚁高管决策和管理协同产品 “数据作战室” 的前端负责人\r\n2. 负责蚂蚁敏捷 BI 产品 “DeepInsight” 的可视分析模块产品能力建设\n3. 数据可视化 AntV 团队核心成员，负责 G2、G2Plot 开源技术的建设"
-        },
-        {
-            "company_name": "蚂蚁金服",
-            "department_name": "大数据部",
-            "work_time": [
-                "2017.06",
-                "2017.12"
-            ],
-            "work_desc": "前端实习生。使用 React 参与开发多类产品：数据研发平台、数据决策平台、数据分析平台的研发工作，同时也参与大型 BI 产品的重构工作，有良好的编码习惯。"
-        },
-        {
-            "company_name": "数沃信息科技有限公司",
+            "company_name": "山东胜软科技股份有限公司",
             "department_name": "",
-            "work_time": [
-                "2017.03",
-                "2017.05"
-            ],
-            "work_desc": "前端实习生。使用 Vue 来实现平台功能和逻辑，再用 ECharts 来对数据挖掘分析后的可视化结果进行展示"
+            "work_desc": "全栈开发实习生。\n• 构建了实时井口追踪系统的后端架构，利用CDC将Oracle数据库的更新流式同步至Kafka，并使用Node.js服务通过WebSocket广播实时指标数据。\n• 将跨服务器JOIN查询中的聚合与合并逻辑迁移至应用层处理，优化多个复杂接口的数据处理流程，使平均响应延迟降低达200ms。\n• 使用Postman构建API自动化测试套件，编写测试脚本验证复杂查询逻辑与数据完整性，覆盖关键边界场景，确保系统架构迁移后的数据准确性与一致性。"
         }
     ],
     "skillList": [
-        {
-            "skill_name": "HTML 和 CSS",
-            "skill_desc": "",
-            "skill_level": 89
-        },
-        {
-            "skill_name": "TypeScript / JavaScript",
-            "skill_level": 90
-        },
-        {
-            "skill_name": "数据可视化",
-            "skill_desc": "丰富的可视化工程实践以及开源经验",
-            "skill_level": 90
-        },
         {
             "skill_name": "React / 前端工程化",
             "skill_desc": "大型前端项目经验以及组件库开发经验",
@@ -95,10 +59,10 @@
     "projectList": [
         {
             "project_name": "危险废物登记与管理系统",
-            "project_role": "核心开发者",
+            "project_role": "独立开发者",
             "project_time": "2025.05 - 2026.01",
             "project_desc": "这是一个支持多方协同的数字化办公系统，核心功能涵盖危险废物转移流程的在线审批与数据交叉校验。系统集成了自然语言驱动的查询能力，能够简化复杂的报表提取与数据分析工作。",
-            "project_content": "\n1. 设计了基于Vue 3、Express和 MySQL的全栈架构，并深度整合了基于角色(RBAC)的访问控制体系。\n2. 集成大语言模型(LLM)，实现自然语言驱数据查询，AI调用API严格遵循RBAC，严防大模型越权访问 。\n3. 实现部门记录与运输日志的自动交叉校验，主动识别不一致数据，运行首季度即成功识别21份异常报告。\n4. 初期将系统部署于阿里云ECS，后将分发网络迁移至Cloudflare，并将文件存储平滑迁移至阿里云OSS。",
+            "project_content": "\n• 基于Vue 3、Express.js 和MySQL设计并开发全栈管理系统，集中化管理危险废物上报流程；实现基于角色的访问控制（RBAC），支持现场单位、运输人员及管理员等多角色协同操作。\n• 集成Qwen 3模型，通过Tool Calling实现自然语言驱动的数据查询能力，支持模型动态调用后端API；在API层引入RBAC权限控制保障数据安全，并提供Markdown可视化展示与Excel报表导出功能，提升数据交付的准确性与可用性。\n• 设计并实现部门报表与运输日志的自动交叉校验机制，用于检测数据不一致问题；系统上线首季度即成功识别并标记21份异常报告，有效降低数据错误率。\n• 初期将系统部署于阿里云ECS，并配置Nginx反向代理与SSL证书；为应对不断增长的用户流量，随后将分发网络迁移至Cloudflare，并将文件存储平滑迁移至阿里云OSS，有效提升了系统的可扩展性。\n",
             "dataIndex": 0
         },
         {
@@ -106,21 +70,32 @@
             "project_role": "核心开发者",
             "project_time": "2025.01 - 2025.05",
             "project_desc": "为车辆提供全向环境感知能力，将多个摄像头画面拼接成一张完整的俯视地图。它能直接在俯视图中标记出行人与车辆的实时位置，并实现对障碍物距离的精确估算。",
-            "project_content": "\n1. 处理6路摄像头帧数据，用相机内外参将多视角图像对齐至统一的自车坐标系。\n2. 实现基于逆透视映射的投影流程，将图像像素映射至地平面坐标，生成车辆周围环境的俯视空间表示。\n3. 集成 YOLOv8 实现行人与车辆检测，通过将检测框底部中心投影至 BEV 网格，实现目标定位与距离估计。\n4. 使用PyTorch张量运算优化投影计算，将计算卸载至GPU，实现多摄像头输入的高效处理。",
-            "dataIndex": 1
+            "project_content": "\n• 处理NuScenes数据集中同步的6路摄像头帧数据，用相机内外参将多视角图像对齐至统一的自车坐标系。\n• 实现基于逆透视映射（IPM）的投影流程，将图像像素映射至地平面坐标，生成车辆周围环境的俯视空间表示，并采用基于边界距离的加权融合算法，根据每个像素到相机边界的距离计算梯度权重，有效减少了相机拼接处的鬼影现象。•\n 使用YOLOv8进行车辆与行人检测，并通过将检测框底部中心点投影至预计算的地平面坐标映射，将检测结果映射到BEV网格，从而实现目标距离估计。\n• 使用PyTorch张量运算优化坐标变换与图像拼接流程，将坐标重映射计算卸载至GPU，实现多摄像头输入的高效处理。\n"
         },
         {
             "project_name": "强化学习贪吃蛇智能体(DQN)",
             "project_role": "核心开发者",
             "project_time": "2024.10 - 2025.01",
             "project_desc": "纯视觉输入的AI智能体项目。它不依赖任何人工预设的规则，仅通过实时观察游戏画面就能自主学会玩贪吃蛇游戏，实现了从视觉像素到操作指令的端到端决策。",
-            "project_content": "\n1. 构建端到端强化学习智能体，使用集成CNN的DQN模型处理原始像素输入并输出决策。\n2. 设计基于蛇身长度的奖励塑形策略，避免策略陷入循环并鼓励长期生存。\n3. 实现动作掩码机制，在Q值选择过程中屏蔽非法动作，引入经验回放缓冲区与目标网络以稳定训练过程。\n4. 采用epsilon-greedy策略进行探索与利用，在100轮评估中取得平均52分（最高73分）的成绩。",
-            "dataIndex": 2
+            "project_content": "\n• 构建端到端强化学习智能体，使用集成CNN的DQN模型处理原始像素输入，使模型能够直接从视觉信息中学习导航策略。\n• 设计基于蛇身长度的奖励塑形策略：在游戏初期强化食物获取奖励，随着蛇身增长逐步提升存活奖励权重，避免策略陷入循环并鼓励长期生存。\n• 实现动作掩码（Action Masking）机制，在Q值选择过程中屏蔽非法动作，引入容量为10,000的经验回放缓冲区（Replay Buffer）与目标网络（Target Network）以降低训练数据相关性并稳定训练过程。\n• 采用epsilon-greedy策略进行探索与利用，在100轮评估中取得平均52分（最高73分）的成绩，在路径规划任务中优于启发式基线方法。\n"
         }
     ],
     "workList": [],
     "aboutme": {
-        "aboutme_desc": "🌱 Focus on data visualization and analysis 😈 能力项：沟通协调能力、执行力\n    自驱型前端工程师，三年多大型复杂产品开发经验，负责蚂蚁集团 BI 产品 DeepInsight 的可视化建设，参与了从图表库到 BI 产品力的一体化建设，对商业智能领域的数据可视化建设有较为丰富的经验。\n    参与 AntV 团队开源项目 G2、G2Plot 的研发，目前是 G2Plot 的主要负责人。\n    "
+        "aboutme_desc": "🌱 Focus on Full-Stack Development & AI Integration 😈 能力项：工程落地能力、技术敏捷度\n    自驱型全栈工程师，具备从前端 Vue 3 到后端 Node.js、Python 的开发经验 ，曾在项目中通过集成大模型 Tool Calling 实现了自然语言查询功能 ，并完成过基于 PyTorch 的 BEV 空间映射与强化学习智能体训练 。\n    擅长利用先进工具提升开发效率，能够熟练配置Cloudflare、阿里云等云端基础设施，并善于将AI能力接入工程实践以解决实际问题 。\n    "
+    },
+    "theme": {
+        "color": "#2f5785",
+        "tagColor": "#8bc34a"
+    },
+    "titleNameMap": {
+        "educationList": "教育背景",
+        "workExpList": "工作经历",
+        "projectList": "项目经历",
+        "skillList": "个人技能",
+        "awardList": "更多信息",
+        "workList": "个人作品",
+        "aboutme": "自我介绍"
     },
     "locales": {
         "en": {
@@ -134,8 +109,8 @@
                 "aboutme": "自我介绍"
             },
             "avatar": {
-                "src": "https://github.com/Xiangyu-Lou/Resume/blob/main/self-photo.jpg?raw=true",
-                "hidden": false
+                "hidden": false,
+                "src": "https://github.com/Xiangyu-Lou/Resume/blob/main/self-photo.jpg?raw=true"
             },
             "profile": {
                 "name": "娄祥宇",
@@ -185,24 +160,30 @@
             ],
             "workExpList": [
                 {
-                    "company_name": "山东胜软科技股份有限公司",
+                    "company_name": "山东胜软科技股份有限公司  全栈开发实习生",
                     "department_name": "",
                     "work_time": [
                         "2022.12",
                         "2023.05"
                     ],
-                    "work_desc": "全栈开发实习生\n1. 构建了实时井口追踪系统的后端架构，利用CDC将Oracle数据库的更新流式同步至Kafka，并使用Node.js服务通过WebSocket广播实时指标数据。\n2. 将跨服务器JOIN查询中的聚合与合并逻辑迁移至应用层处理，优化多个复杂接口的数据处理流程，使平均响应延迟降低达200ms。\n3. 使用Postman构建API自动化测试套件，编写测试脚本验证复杂查询逻辑与数据完整性，覆盖关键边界场景，确保系统架构迁移后的数据准确性与一致性。",
+                    "work_desc": "1. 构建了实时井口追踪系统的后端架构，将检测数据进行实时推送。\n2. 将跨服务器JOIN查询中的逻辑迁移至应用层处理，优化复杂接口数据处理流程，大幅降低延迟。\n3. 使用Postman构建API自动化测试，编写测试脚本验证复杂查询逻辑与数据完整性。",
                     "dataIndex": 0
                 }
             ],
-            "skillList": [],
+            "skillList": [
+                {
+                    "skill_name": "",
+                    "skill_desc": "Python, C, C++, JavaScript, SQL, Vue3, Express, React, Pytorch, Git, Docker, Pandas",
+                    "skill_level": 100
+                }
+            ],
             "projectList": [
                 {
                     "project_name": "危险废物登记与管理系统",
                     "project_role": "核心开发者",
                     "project_time": "2025.05 - 2026.01",
                     "project_desc": "这是一个支持多方协同的数字化办公系统，核心功能涵盖危险废物转移流程的在线审批与数据交叉校验。系统集成了自然语言驱动的查询能力，能够简化复杂的报表提取与数据分析工作。",
-                    "project_content": "\n1. 设计了基于Vue 3、Express和 MySQL的全栈架构，并深度整合了基于角色(RBAC)的访问控制体系。\n2. 集成大语言模型(LLM)，实现自然语言驱数据查询，AI调用API严格遵循RBAC，严防大模型越权访问 。\n3. 实现部门记录与运输日志的自动交叉校验，主动识别不一致数据，运行首季度即成功识别21份异常报告。\n4. 初期将系统部署于阿里云ECS，后将分发网络迁移至Cloudflare，并将文件存储平滑迁移至阿里云OSS。",
+                    "project_content": "\n1. 设计了基于Vue 3、Express和 MySQL的全栈架构，并深度整合了基于角色(RBAC)的访问控制体系。\n2. 集成大语言模型(LLM)，实现自然语言驱数据查询，AI调用API严格遵循RBAC，严防大模型越权访问 。\n3. 实现部门记录与运输日志的自动交叉校验，主动识别不一致数据，运行首季度即成功识别21份异常报告。",
                     "dataIndex": 0
                 },
                 {
@@ -210,7 +191,7 @@
                     "project_role": "核心开发者",
                     "project_time": "2025.01 - 2025.05",
                     "project_desc": "为车辆提供全向环境感知能力，将多个摄像头画面拼接成一张完整的俯视地图。它能直接在俯视图中标记出行人与车辆的实时位置，并实现对障碍物距离的精确估算。",
-                    "project_content": "\n1. 处理6路摄像头帧数据，用相机内外参将多视角图像对齐至统一的自车坐标系。\n2. 实现基于逆透视映射的投影流程，将图像像素映射至地平面坐标，生成车辆周围环境的俯视空间表示。\n3. 集成 YOLOv8 实现行人与车辆检测，通过将检测框底部中心投影至 BEV 网格，实现目标定位与距离估计。\n4. 使用PyTorch张量运算优化投影计算，将计算卸载至GPU，实现多摄像头输入的高效处理。",
+                    "project_content": "\n1. 实现基于逆透视映射的投影流程，将图像像素映射至地平面坐标，生成车辆周围环境的俯视空间表示。\n2. 集成YOLOv8实现行人与车辆检测，通过将检测框底部中心投影至 BEV 网格，实现目标定位与距离估计。\n3. 使用PyTorch张量运算优化投影计算，将计算卸载至GPU，实现多摄像头输入的高效处理。",
                     "dataIndex": 1
                 },
                 {
@@ -218,18 +199,124 @@
                     "project_role": "核心开发者",
                     "project_time": "2024.10 - 2025.01",
                     "project_desc": "纯视觉输入的AI智能体项目。它不依赖任何人工预设的规则，仅通过实时观察游戏画面就能自主学会玩贪吃蛇游戏，实现了从视觉像素到操作指令的端到端决策。",
-                    "project_content": "\n1. 构建端到端强化学习智能体，使用集成CNN的DQN模型处理原始像素输入并输出决策。\n2. 设计基于蛇身长度的奖励塑形策略，避免策略陷入循环并鼓励长期生存。\n3. 实现动作掩码机制，在Q值选择过程中屏蔽非法动作，引入经验回放缓冲区与目标网络以稳定训练过程。\n4. 采用epsilon-greedy策略进行探索与利用，在100轮评估中取得平均52分（最高73分）的成绩。",
+                    "project_content": "\n1. 构建端到端强化学习智能体，使用集成CNN的DQN模型处理原始像素输入并输出决策。\n2. 设计基于蛇身长度的奖励塑形策略，避免策略陷入循环并鼓励长期生存。\n3. 实现动作掩码机制，在Q值选择过程中屏蔽非法动作，引入经验回放缓冲区与目标网络以稳定训练过程。",
                     "dataIndex": 2
                 }
             ],
             "workList": [],
             "aboutme": {
-                "aboutme_desc": "🌱 Focus on Full-Stack Development & AI Integration | 😈 \n具备扎实的工程落地能力与技术敏捷度，掌握现代前后端技术栈及云端基础设施。拥有 AI 应用开发与模型训练经验，能够将大语言模型及先进开发工具务实地转化为工程解决方案。"
+                "aboutme_desc": "🌱 Focus on Full-Stack Development & AI Integration | 😈 \n具备扎实的工程落地能力与技术敏捷度，掌握现代前后端技术栈及云端基础设施。拥有AI应用开发与模型训练经验，能够将大语言模型及先进开发工具务实地转化为工程解决方案。"
+            },
+            "theme": {
+                "color": "#2f5785",
+                "tagColor": "#8bc34a"
+            },
+            "locales": {
+                "en": {
+                    "titleNameMap": {
+                        "educationList": "教育背景",
+                        "workExpList": "工作经历",
+                        "projectList": "项目经历",
+                        "skillList": "个人技能",
+                        "awardList": "更多信息",
+                        "workList": "个人作品",
+                        "aboutme": "自我介绍"
+                    },
+                    "avatar": {
+                        "src": "https://github.com/Xiangyu-Lou/Resume/blob/main/self-photo.jpg?raw=true",
+                        "hidden": false
+                    },
+                    "profile": {
+                        "name": "娄祥宇",
+                        "email": "alex.xiangyu.lou@gmail.com",
+                        "mobile": "13102006750",
+                        "github": "https://github.com/Xiangyu-Lou",
+                        "zhihu": "",
+                        "workExpYear": "",
+                        "workPlace": "",
+                        "positionTitle": ""
+                    },
+                    "educationList": [
+                        {
+                            "edu_time": [
+                                "2023.08",
+                                "2025.05"
+                            ],
+                            "school": "圣路易斯华盛顿大学",
+                            "major": "计算机工程 硕士"
+                        },
+                        {
+                            "edu_time": [
+                                "2018.08",
+                                "2022.06"
+                            ],
+                            "school": "天津工业大学",
+                            "major": "电子信息科学与技术 本科"
+                        }
+                    ],
+                    "awardList": [
+                        {
+                            "award_info": "英语 CET6",
+                            "award_time": "2015"
+                        },
+                        {
+                            "award_info": "蚂蚁近卫军 卓越个人奖",
+                            "award_time": "2018.09"
+                        },
+                        {
+                            "award_info": "前端练习生 可视化讲师",
+                            "award_time": "2020.10"
+                        },
+                        {
+                            "award_info": "前端早早聊 分享 “如何构思和开发开箱即用的可视化图表库 G2Plot”",
+                            "award_time": "2021.07"
+                        }
+                    ],
+                    "workExpList": [
+                        {
+                            "company_name": "山东胜软科技股份有限公司",
+                            "department_name": "",
+                            "work_time": [
+                                "2022.12",
+                                "2023.05"
+                            ],
+                            "work_desc": "全栈开发实习生\n1. 构建了实时井口追踪系统的后端架构，利用CDC将Oracle数据库的更新流式同步至Kafka，并使用Node.js服务通过WebSocket广播实时指标数据。\n2. 将跨服务器JOIN查询中的聚合与合并逻辑迁移至应用层处理，优化多个复杂接口的数据处理流程，使平均响应延迟降低达200ms。\n3. 使用Postman构建API自动化测试套件，编写测试脚本验证复杂查询逻辑与数据完整性，覆盖关键边界场景，确保系统架构迁移后的数据准确性与一致性。",
+                            "dataIndex": 0
+                        }
+                    ],
+                    "skillList": [],
+                    "projectList": [
+                        {
+                            "project_name": "危险废物登记与管理系统",
+                            "project_role": "核心开发者",
+                            "project_time": "2025.05 - 2026.01",
+                            "project_desc": "这是一个支持多方协同的数字化办公系统，核心功能涵盖危险废物转移流程的在线审批与数据交叉校验。系统集成了自然语言驱动的查询能力，能够简化复杂的报表提取与数据分析工作。",
+                            "project_content": "\n1. 设计了基于Vue 3、Express和 MySQL的全栈架构，并深度整合了基于角色(RBAC)的访问控制体系。\n2. 集成大语言模型(LLM)，实现自然语言驱数据查询，AI调用API严格遵循RBAC，严防大模型越权访问 。\n3. 实现部门记录与运输日志的自动交叉校验，主动识别不一致数据，运行首季度即成功识别21份异常报告。\n4. 初期将系统部署于阿里云ECS，后将分发网络迁移至Cloudflare，并将文件存储平滑迁移至阿里云OSS。",
+                            "dataIndex": 0
+                        },
+                        {
+                            "project_name": "鸟瞰图系统(BEV)",
+                            "project_role": "核心开发者",
+                            "project_time": "2025.01 - 2025.05",
+                            "project_desc": "为车辆提供全向环境感知能力，将多个摄像头画面拼接成一张完整的俯视地图。它能直接在俯视图中标记出行人与车辆的实时位置，并实现对障碍物距离的精确估算。",
+                            "project_content": "\n1. 处理6路摄像头帧数据，用相机内外参将多视角图像对齐至统一的自车坐标系。\n2. 实现基于逆透视映射的投影流程，将图像像素映射至地平面坐标，生成车辆周围环境的俯视空间表示。\n3. 集成 YOLOv8 实现行人与车辆检测，通过将检测框底部中心投影至 BEV 网格，实现目标定位与距离估计。\n4. 使用PyTorch张量运算优化投影计算，将计算卸载至GPU，实现多摄像头输入的高效处理。",
+                            "dataIndex": 1
+                        },
+                        {
+                            "project_name": "强化学习贪吃蛇智能体(DQN)",
+                            "project_role": "核心开发者",
+                            "project_time": "2024.10 - 2025.01",
+                            "project_desc": "纯视觉输入的AI智能体项目。它不依赖任何人工预设的规则，仅通过实时观察游戏画面就能自主学会玩贪吃蛇游戏，实现了从视觉像素到操作指令的端到端决策。",
+                            "project_content": "\n1. 构建端到端强化学习智能体，使用集成CNN的DQN模型处理原始像素输入并输出决策。\n2. 设计基于蛇身长度的奖励塑形策略，避免策略陷入循环并鼓励长期生存。\n3. 实现动作掩码机制，在Q值选择过程中屏蔽非法动作，引入经验回放缓冲区与目标网络以稳定训练过程。\n4. 采用epsilon-greedy策略进行探索与利用，在100轮评估中取得平均52分（最高73分）的成绩。",
+                            "dataIndex": 2
+                        }
+                    ],
+                    "workList": [],
+                    "aboutme": {
+                        "aboutme_desc": "🌱 Focus on Full-Stack Development & AI Integration | 😈 \n具备扎实的工程落地能力与技术敏捷度，掌握现代前后端技术栈及云端基础设施。拥有 AI 应用开发与模型训练经验，能够将大语言模型及先进开发工具务实地转化为工程解决方案。"
+                    }
+                }
             }
         }
-    },
-    "theme": {
-        "color": "#2f5785",
-        "tagColor": "#8bc34a"
     }
 }
